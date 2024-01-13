@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet');
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    padding: 20px;
+}
+header h1 {
+    color: #E0E0E0;
+}
+header img{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -10px;
+    background-color: #0E0E0E;
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+.card {
+    border: 2px solid black;
+    color: black;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+}
+.card ul {
+    list-style: none; 
+    counter-reset: list-counter; 
+    padding-left: 0;
+}
+.card ul li::before {
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    margin-right: 10px;
+}
+#menu{
+    display: none;
+    z-index: 1;
+}
+
+
+
+

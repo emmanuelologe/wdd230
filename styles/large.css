@@ -1,0 +1,9 @@
+@media (max-width: 480px){
+    /* small view navigation */
+
+nav{
+    display: flex;
+    flex-direction: column; /* Stack menu items vertically */
+    background-color: #0E0E0E
+}
+}
