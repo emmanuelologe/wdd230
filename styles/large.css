@@ -6,4 +6,41 @@ nav{
     flex-direction: column; /* Stack menu items vertically */
     background-color: #0E0E0E
 }
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: .25rem .75rem;
+	background-color: #eee;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+    display: block;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+nav{
+    display: none;
+}
+nav.show{
+    display: flex;
+    flex-direction: column; /* Stack menu items vertically */
+    background-color: #0E0E0E
+}
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
 }
