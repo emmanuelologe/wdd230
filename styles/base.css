@@ -68,7 +68,28 @@ h3{
 	cursor: pointer;
 	font-size: 2rem;
 }
+.hero-container{
+    position: relative;
+    max-width: 100%;
+   
+}
 
+.hero-container img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 1;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    background-color:rgb(175,190,224,0.5);
+    box-shadow: 0 0 3rem #fff;
+}   
 
 
 
