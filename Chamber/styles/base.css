@@ -41,18 +41,6 @@
         left: 180px;
         top: 0;
 
-
-        /* position: absolute;
-        right: 15px;
-        top: 70px; /* Adjust the top position as needed 
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%; 
-        box-sizing: border-box;
-        display: none;
-        z-index: 2; */
     }
     
     #menu.open {
