@@ -49,21 +49,33 @@
                 <li><a href="week02/design.html">Design Principles</a> | <a href="https://codepen.io/emmanuelologe/pen/abMyvOY">Responsive Hamburger Menu</a> | <a href="week02/bom.html">BOM Top 10</a></li>
                 <li><a href="images/landscape.webp">Webp</a>| <a href="week03/lazy.html">Lazy Loading</a>| <a href="week03/responsive-images.html">responsive-images</a> | <a href="week03/bomlocalstorage.html">BOM Local Storage</a> </li>
                 <li><a href="https://codepen.io/emmanuelologe/pen/JjxONRe">Psudo Classes</a>| <a href="images/week3_css_combinator_exercise.png">Css Combinators</a>| <a href="week04/tablebuild.html">HTML Tables</a>| <a href="week04/htmlforms.html"> HTML Forms</a></li>
-                <li><a href="#">05</a></li>
+                <li><a href="https://codepen.io/emmanuelologe/pen/qBgmXeO">CSS Psudo-Elements</a>| <a href="week05/new-ward-members.json">New Ward Member</a>| <a href="week05/fetch_prophet.html">Fetch API</a>| <a href="week05/weather.html">Open Weather API</a></li>
                 <li><a href="#">06</a></li>
             </ul>
         </section>
-        <section class="card">
-            <h3>Information</h3>
-            <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.9490650968015!2d7.412292569487655!3d9.08231682372755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e753047a64a21%3A0xd993eec9b86e1bae!2sSaintvic%20Media%20House!5e0!3m2!1sen!2sng!4v1699691481494!5m2!1sen!2sng" 
-            width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        <section class="card-container">
+            <section class="card">
+                <h3>Weather Information</h3>
+                <p>The temperature in Abuja: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption id="description"></figcaption>
+            </figure>
+            <div id="moreinfo"></div>
+                <br><div id="page-visits"></div>
+            </section>
+            <section class="card">
+                <h3>Information</h3>
+                <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.9490650968015!2d7.412292569487655!3d9.08231682372755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e753047a64a21%3A0xd993eec9b86e1bae!2sSaintvic%20Media%20House!5e0!3m2!1sen!2sng!4v1699691481494!5m2!1sen!2sng" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </section>    
     </main>
     <footer>
         <p id="copyright"></p>
