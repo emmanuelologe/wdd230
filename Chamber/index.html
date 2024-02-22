@@ -32,6 +32,7 @@
     </header>
     
     <main>
+        <div id="week-banner"></div>
         <div class="hero">
             <picture>
                 <source srcset="images/hero_small.webp" media="(max-width: 500px)">
@@ -56,9 +57,21 @@
                 <p>Sharp Corner, Gwarinpa</p>
 
             </div>
-            <div id="weather-info">
+            <div id="weather">
                 <h3>Weather</h3>
-                <p>Loading weather...</p>
+                <p>Temperature in Gwarinpa Abuja, FCT: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="#" alt="#">
+                    <figcaption id="description"></figcaption>
+                </figure>
+                <div id="moreinfo"></div> 
+               
+                <div id="inputs">
+                    <br>Air temperature (°F): <input type="text" id="input-air-temp">
+                    <br>Wind speed (mph):<input type="text" id="input-wind-speed"> 
+                <button id ="wind-chill" type="submit">Wind Chill Index</button>
+                </div>
+                <div id="windchill-result"></div>
             </div>
         </section>
         <section id="members">
@@ -95,5 +108,6 @@
         <p id="copyright"></p>
     </footer>
     <script src="script/chamber.js"></script>
+    <script src="script/windchill.js"></script>
 </body>
 </html>

@@ -513,6 +513,24 @@
             color: white;
             margin-left: 40px;
         }
+        #week-banner{
+            border: 1px solid #fff;
+            box-shadow: 0 0 10px #333;
+            grid-column: 1/ 4;
+            background-color: #A5D7E8;
+            margin: 15px;
+            padding: 10px
+        }
 
+        #week-banner::before {
+            content: "❌";
+            background-color: gray;
+            border: 1px solid #090909;
+            margin: 10px;
+        }
+    
+        #week-banner.close {
+            display: none;
+        }
       
 }
